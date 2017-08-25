@@ -9,7 +9,7 @@ cache:
   - $HOME/.m2
 
 before_install:
-  - cqlsl -e 'CREATE KEYSPACE "test" WITH REPLICATION = {'class':'SimpleStrategy','replication_factor':'1'} AND DURABLE_WRITES = false;'
+  - cqlsh -e 'CREATE KEYSPACE "test" WITH REPLICATION = {'class':'SimpleStrategy','replication_factor':'1'} AND DURABLE_WRITES = false;'
 
 after_script:
 
