@@ -32,9 +32,9 @@
 	</licenses>
 
 	<scm>
-		<url>git@github.com:DDTH/ddth-cache-adapter</url>
-		<connection>scm:git:git@github.com:DDTH/ddth-cache-adapter</connection>
-		<developerConnection>scm:git:git@github.com:DDTH/ddth-cache-adapter</developerConnection>
+		<url>git@github.com:DDTH/ddth-mappings</url>
+		<connection>scm:git:git@github.com:DDTH/ddth-mappings</connection>
+		<developerConnection>scm:git:git@github.com:DDTH/ddth-mappings</developerConnection>
 	</scm>
 	<developers>
 		<developer>
