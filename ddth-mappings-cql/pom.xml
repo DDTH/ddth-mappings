@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.github.ddth</groupId>
+        <artifactId>ddth-mappings</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+
+    <!-- <groupId>com.github.ddth</groupId> -->
+    <artifactId>ddth-mappings-cql</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>ddth-mappings-cql</name>
+    <description>DDTH's one-to-one, many-to-one, many-to-many mappings library</description>
+    <url>https://github.com/DDTH/ddth-mappings</url>
+
+    <developers>
+        <developer>
+            <id>btnguyen2k</id>
+            <name>Thanh Ba Nguyen</name>
+            <email>btnguyen2k@gmail.com</email>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.ddth</groupId>
+            <artifactId>ddth-mappings-core</artifactId>
+            <version>0.1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!-- for Cassandra-based mapping storage -->
+        <dependency>
+            <groupId>com.github.ddth</groupId>
+            <artifactId>ddth-cql-utils</artifactId>
+            <version>${version.ddth_cql_utils}</version>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+</project>
