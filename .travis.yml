@@ -1,0 +1,20 @@
+sudo: false
+
+language: java
+jdk:
+  - oraclejdk8
+
+cache:
+  directories:
+  - $HOME/.m2
+
+before_install:
+  - cqlsl -e 'CREATE KEYSPACE "test" WITH REPLICATION = {'class':'SimpleStrategy','replication_factor':'1'} AND DURABLE_WRITES = false;'
+
+after_script:
+
+services:
+  - cassandra
+  
+script:
+  - mvn test -Dcassandra.keyspace=test

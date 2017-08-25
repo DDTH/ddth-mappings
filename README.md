@@ -1,8 +1,12 @@
+[![Build Status](https://travis-ci.org/DDTH/ddth-mappings.svg?branch=master)](https://travis-ci.org/DDTH/ddth-mappings)
+
 # ddth-mappings
 
 DDTH's one-to-one, many-to-one, many-to-many mappings library.
 
-[https://github.com/DDTH/ddth-mappings](https://github.com/DDTH/ddth-mappings)
+By Thanh Ba Nguyen (btnguyen2k (at) gmail.com).
+
+Project home: [https://github.com/DDTH/ddth-mappings](https://github.com/DDTH/ddth-mappings)
 
 
 ## License
